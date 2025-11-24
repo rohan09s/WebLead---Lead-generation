@@ -1,7 +1,3 @@
-# IndiaMart/JustDial - Minimal Fullstack Clone (Boilerplate)
-
-This is a minimal, opinionated boilerplate that demonstrates a marketplace/lead-inquiry flow similar to IndiaMart / JustDial.
-
 - **Frontend:** React (Vite)
 - **Backend:** Node + Express + Socket.IO (optional MongoDB via Mongoose)
 - **Realtime:** Socket.IO for new-lead notifications
@@ -17,7 +13,6 @@ This is a minimal, opinionated boilerplate that demonstrates a marketplace/lead-
 ```bash
 cd backend
 npm install
-# set MONGO_URI in .env if you want MongoDB (optional). If missing, server uses in-memory store.
 npm run dev
 ```
 
@@ -28,10 +23,7 @@ npm install
 npm run dev
 ```
 
-Frontend will talk to `http://localhost:4000` by default. See `backend/.env.example` and `frontend/src/api.js`.
-
-**Notes**
-- This is a starting point: add authentication, validation, production build, CORS/security for production, and a real DB for persistence.
+Frontend will talk to `http://localhost:4000` by default. See `backend/.env` and `frontend/src/api.js`.
 - The backend includes a fallback in-memory store if no MongoDB URI provided.
 
 Enjoy!
