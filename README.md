@@ -25,5 +25,3 @@ npm run dev
 
 Frontend will talk to `http://localhost:4000` by default. See `backend/.env` and `frontend/src/api.js`.
 - The backend includes a fallback in-memory store if no MongoDB URI provided.
-
-Enjoy!
